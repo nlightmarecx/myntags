@@ -1,0 +1,38 @@
+.table-of-products {
+    overflow-x: auto;
+}
+
+.table-of-products table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 1200px;
+    table-layout: fixed; /* Ensures proper text wrapping */
+}
+
+.table-of-products th, .table-of-products td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle; /* Aligns text to the top of the cell */
+    word-wrap: break-word; /* Ensures long text wraps */
+    white-space: normal; /* Allows wrapping */
+}
+
+.table-of-products th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.table-of-products img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.n-o-column {
+    width: 3%; /* Adjust as needed for the desired width */
+}
+
+.link-column {
+    width: 25%; /* Adjust as needed for the desired width */
+}
